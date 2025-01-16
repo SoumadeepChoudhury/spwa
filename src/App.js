@@ -68,13 +68,14 @@ function App() {
   return (
     //Add two buttons
     <div style={{
-      textAlign: 'center', display: 'flex',
+      textAlign: 'center',
+      display: 'flex',
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
       height: '100vh',
     }}>
-      <h1>A Simple Progressive Web Application</h1>
+      <h1 style={{color:'white'}}>A Simple Progressive Web Application</h1>
       <div>
         <button onClick={handleInstallClick} style={{ marginRight: '10px', padding: '10px 20px' }}>
           Install App
